@@ -6,7 +6,7 @@ CREATE TABLE restaurantetzoysolutions.menu (
   imagen VARCHAR(300)    ,
   precio_produccion INTEGER    ,
   tiempo_preparacion TIME      ,
-PRIMARY KEY(id));
+PRIMARY KEY(ids));
 
 
 
