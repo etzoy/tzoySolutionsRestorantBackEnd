@@ -1,0 +1,18 @@
+{
+  "name": "ABC mongodb",
+  "version": "1.0.0",
+  "description": "insertar, modificar y eliminar en mongodb usando nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Servio Jose Boguerin Guerra",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "5.2.13",
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
