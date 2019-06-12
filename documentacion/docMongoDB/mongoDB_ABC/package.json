@@ -1,5 +1,5 @@
 {
-  "name": "ABC mongodb",
+  "name": "mongoDB_ABC",
   "version": "1.0.0",
   "description": "insertar, modificar y eliminar en mongodb usando nodejs",
   "main": "index.js",
