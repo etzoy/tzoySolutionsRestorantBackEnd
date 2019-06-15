@@ -4,7 +4,7 @@
   "description": "insertar, modificar y eliminar en mongodb usando nodejs",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "export $(cat variables.env | xargs) && nodemon main.js"
   },
   "keywords": [],
   "author": "Servio Jose Boguerin Guerra",
