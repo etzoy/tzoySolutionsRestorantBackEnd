@@ -15,15 +15,17 @@ const options = { //https://mongoosejs.com/docs/connections.html
   socketTimeoutMS: 45000, // Close sockets after 45 seconds of inactivity
   family: 4 // Use IPv4, skip trying IPv6
 };
+var notificar;
 
 //start();
-function start(dominio,puerto){
+function start(dominio,puerto,callback){
   if(!dominio){
     dominio='mongodb-server';
   }
   if(!puerto){
     puerto=27017;
   }
+  notificar=callback;
   var conexion='mongodb://'+dominio+':'+puerto+'/restaurante';
   console.log('string conexion',conexion);
   mongoose.connect(conexion,options);
@@ -39,6 +41,7 @@ function error(err){
 
 function conectado(){
   console.log("coneccionDB.js: conectado a mongodb");
+  notificar();
 }
 
 function desconectado(){
