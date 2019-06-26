@@ -1,7 +1,7 @@
 
 CREATE TABLE restaurantetzoysolutions.menu (
   id INTEGER   NOT NULL ,
-  nombre VARCHAR(300) ,
+  nombre VARCHAR(310) ,
   precio INTEGER    ,
   imagen VARCHAR(300)    ,
   precio_produccion INTEGER    ,
