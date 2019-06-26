@@ -1,0 +1,17 @@
+[
+    {
+"id":1,
+"nombre":"opcion1",
+"valor":20
+},
+{
+    "id":2,
+    "nombre":"opcion2",
+    "valor":25
+    },
+    {
+        "id":3,
+        "nombre":"opcion3",
+        "valor":30
+        }
+]
